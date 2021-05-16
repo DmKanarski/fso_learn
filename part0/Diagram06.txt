@@ -1,0 +1,4 @@
+title Create new note spa
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: Response code 201 {"message": "note created"}
